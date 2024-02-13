@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+img{
+    height: 80%;
+    width: 60%;
+    border: 5px solid white;
+}
+h1{
+    text-transform: uppercase;
+    padding: 0;
+    margin: 20px 0 0 0;
+    letter-spacing: 1px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:aqua;
+}
+@media (max-width: 768px) {
+    img {
+        height: auto; 
+        width: 80%; 
+}
+h1{
+    font-size: 16px;
+}
+p{
+    font-size: 12px;
+}
+a{
+    font-size: 12px;
+}
+}
